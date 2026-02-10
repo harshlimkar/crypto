@@ -1,0 +1,53 @@
+/* Full Black Background */
+.stApp {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+}
+
+/* Main Title */
+h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #00ffcc;
+    letter-spacing: 2px;
+}
+
+/* Section Headers */
+h2, h3 {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+/* Buttons */
+div.stButton > button {
+    background: linear-gradient(90deg, #ffffff, #ffffff);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 45px;
+    width: 100%;
+}
+
+/* Download Button */
+div.stDownloadButton > button {
+    background: linear-gradient(90deg, #ffffff, #ffffff);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 45px;
+    width: 100%;
+}
+
+/* Tabs */
+button[data-baseweb="tab"] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Code blocks */
+code {
+    color: #ffffff;
+}
